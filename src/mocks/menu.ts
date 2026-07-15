@@ -1,0 +1,101 @@
+export const menuCategories = [
+  {
+    id: 'arepas',
+    name: 'Arepas',
+    description: 'Arepas rellenas tradicionales hechas a mano con harina de maiz blanco',
+    image: 'https://readdy.ai/api/search-image?query=Delicious%20stuffed%20Venezuelan%20arepa%20with%20shredded%20beef%20cheese%20and%20plantains%20on%20rustic%20ceramic%20plate%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-arepas-01&orientation=squarish',
+    items: [
+      { name: 'Arepa Tumbarrancho', price: '$12.99', description: 'Temporized arepa, battered in a light mixture of wheat flour and egg, stuffed with bologna and then egg, with a delicious piece of queso de mano, ketchup and pink sauce. Add-ons: Ham +$2.00 | Pork or Chicken +$4.00' },
+      { name: 'Arepa de Pabellon', price: '$13.99', description: 'Shredded beef, black beans, shredded cheese, plantains' },
+      { name: 'Arepa Santa Barbara', price: '$13.99', description: 'Grilled beef — Pico de Gallo — Queso llanero' },
+      { name: 'Arepa Cabimera', price: '$14.99', description: 'Shredded beef, Pico de Gallo, Queso llanero, all topped with your favorite meat, raw cabbage, tomato, white cheese, ketchup and green sauce. Choice: Shredded beef, Pork or Chicken' },
+      { name: 'Aguita de Sapo', price: '$13.99', description: '2 fried arepas filled with delicious grilled pulled pork and fried white cheese, garnished with lettuce, tomatoes, ketchup and mayonnaise' },
+      { name: 'Arepas (2 items max, GF)', price: '$9.99', description: 'Venezuelan white corn cake, filled with your choice of any (2 items max): Shredded beef, Pork, Chicken, Ham, White Shredded Cheese, White Artisan Cheese (Queso de Mano), Gouda Cheese, Avocado, Chicken Salad, Tomato, Shrimp (extra $2.99)' },
+    ],
+  },
+  {
+    id: 'tequenos',
+    name: 'Tequeños',
+    description: 'Palitos de queso tradicionales venezolanos, crujientes por fuera y cremosos por dentro',
+    image: 'https://readdy.ai/api/search-image?query=Crispy%20golden%20Venezuelan%20tequenos%20cheese%20sticks%20arranged%20on%20white%20plate%20with%20small%20sauce%20bowl%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-tequenos-01&orientation=squarish',
+    items: [
+      { name: 'Tequeños (5 unidades)', price: '$7.50', description: 'Venezuelan cheese sticks, snack-size cheese sticks prepared with soft white melting cheese wrapped in fine flour dough, fried to perfection' },
+      { name: 'Guava and Cheese Tequeños (4 unidades)', price: '$7.50', description: 'Sweet guava paired with creamy white cheese, wrapped in fine flour dough and fried to perfection' },
+      { name: 'Frozen Tequeños (30 uds)', price: '$25.00', description: 'Frozen tequeños to take home and enjoy anytime. Includes sauce.' },
+      { name: 'Frozen Tequeños (100 uds)', price: '$65.00', description: 'Frozen tequeños to take home and enjoy anytime. Includes sauce.' },
+    ],
+  },
+  {
+    id: 'cachapas',
+    name: 'Cachapas',
+    description: 'Tortillas de maiz dulce fresco servidas con queso de mano artesanal',
+    image: 'https://readdy.ai/api/search-image?query=Delicious%20Venezuelan%20cachapa%20fresh%20corn%20pancake%20folded%20with%20melted%20white%20cheese%20on%20rustic%20plate%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-cachapas-01&orientation=squarish',
+    items: [
+      { name: 'Cachapa', price: '$13.99', description: 'Made with fresh ground corn mixed into a thick batter, like pancakes, served with white artisan cheese (queso de mano). Add-ons: Ham +$2.00 | Meat (pork, chicken or shredded beef) +$4.00' },
+      { name: 'Cachapa con Queso de Mano', price: '$13.99', description: 'Fresh corn pancake with artisan white cheese, our signature cachapa' },
+      { name: 'Cachapa con Carne', price: '$17.99', description: 'Fresh corn pancake with your choice of shredded beef, pork, or chicken +$4.00' },
+    ],
+  },
+  {
+    id: 'pepitos',
+    name: 'Pepitos',
+    description: 'Sándwiches venezolanos estilo pepito, grandes, jugosos y llenos de sabor',
+    image: 'https://readdy.ai/api/search-image?query=Large%20Venezuelan%20pepito%20sandwich%20filled%20with%20grilled%20steak%20chicken%20toppings%20on%20rustic%20wooden%20board%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-pepitos-01&orientation=squarish',
+    items: [
+      { name: 'Pepito', price: '$14.99', description: '7" French bread filled with your choice of grilled steak, chicken or pork — garnished with lettuce, tomatoes, potato sticks, ketchup, mustard, green house sauce, sprinkled with parmesan cheese. Choices: Grilled Steak, Grilled Chicken, Grilled Pork. Add-ons: Mixto (Steak + Chicken) +$4.00, Queso de mano +$2.75' },
+      { name: 'Pepito Salad', price: '$12.99', description: 'In a bed of lettuce, tomatoes and avocado with your choice of grilled steak, chicken, or pork — garnished with potato sticks, green house sauce, sprinkled with parmesan cheese. Choices: Grilled Steak, Grilled Chicken, Grilled Pork. Add-ons: Mixto (Steak + chicken) +$4.00, Queso de mano +$2.75' },
+    ],
+  },
+  {
+    id: 'hamburguesas',
+    name: 'Hamburguesas',
+    description: 'Hamburguesas gourmet de estilo venezolano, jugosas y con toppings generosos',
+    image: 'https://readdy.ai/api/search-image?query=Gourmet%20Venezuelan%20style%20burger%20with%20fresh%20toppings%20cheese%20avocado%20on%20brioche%20bun%2C%20rustic%20wooden%20board%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-burgers-01&orientation=squarish',
+    items: [
+      { name: 'La Callejera', price: '$12.99', description: 'Street Burger. 100% Angus beef or chicken breast grilled to perfection, served on a fresh bun loaded with: Bacon, Muenster cheese, Fried egg, Ham, Avocado, Lettuce, Tomato, Potato sticks. Garnished with house green sauce, ketchup, and mustard. Choices: 100% Angus Beef, Grilled Chicken. Add-ons: Double Meat or Mixed +$4.00, Venezuelan White Cheese (Queso de mano) +$2.75' },
+      { name: 'La Callejera Ahumada', price: '$18.99', description: 'Smoked Pork Chop Burger. 100% Angus beef, chicken breast grilled and a smoked pork chop, grilled to perfection, served on a fresh bun loaded with: Bacon, Muenster cheese, Fried egg, Ham, Avocado, Lettuce, Tomato. Garnished with house green sauce, ketchup, and mustard. Add-ons: Venezuelan White Cheese (Queso de mano) +$2.75' },
+      { name: 'La Granjera', price: '$11.99', description: 'Crispy Chicken Burger. Crispy fried breaded chicken patty, crispy fried onion strings, Bacon, Lettuce, Tomatoes, Muenster cheese. Garnished with green house sauce, ketchup, and pink sauce' },
+      { name: 'Patacon Burger', price: '$15.99', description: '100% Angus beef or chicken breast grilled to perfection, served on one whole fried plantain (green or ripe), with: Bacon, Venezuelan White Cheese (Queso de Mano), Fried Egg, Ham, Avocado, Cabbage, Lettuce. Garnished with green house sauce, ketchup, and mustard. Choice: 100% Angus Beef, Grilled Chicken' },
+      { name: 'Toston Burger', price: '$12.99', description: 'Crispy fried plantain (toston) as bun, filled with Angus beef or chicken, lettuce, tomato, cheese, and our signature sauces. A unique Venezuelan twist on the classic burger.' },
+      { name: 'Hot Dog (Venezuelan Style)', price: '$8.50', description: '100% beef frank served on a fresh bun filled with raw cabbage salad, potato sticks, ketchup, green sauce, mustard, sprinkle of parmesan cheese. Add-ons: Queso de mano / Venezuelan white cheese +$2.75' },
+      { name: 'Salchi-queso', price: '$10.99', description: 'Venezuelan hot dog and cheese sandwich. A fresh hot dog bun filled with a 100% beef frank, fresh white cheese topped with raw cabbage, potato sticks, green sauce, mustard, ketchup, and a sprinkle of parmesan cheese' },
+      { name: 'Pan con Queso', price: '$7.50', description: 'Venezuelan cheese sandwich. A fresh hot dog bun filled with fresh white cheese topped with raw cabbage, potato sticks, green sauce, mustard and ketchup, with a sprinkle of parmesan cheese' },
+    ],
+  },
+  {
+    id: 'ensaladas',
+    name: 'Ensaladas',
+    description: 'Ensaladas frescas con toque venezolano, ligeras pero llenas de sabor',
+    image: 'https://readdy.ai/api/search-image?query=Fresh%20colorful%20Venezuelan%20salad%20with%20grilled%20chicken%20avocado%20tomatoes%20lettuce%20in%20white%20bowl%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-ensalada-01&orientation=squarish',
+    items: [
+      { name: 'Ensalada', price: '$11.99', description: 'Grilled Chicken — Grilled pork. Mixed: Grilled Steak and Grilled Chicken. Add-ons: Queso de Mano +$2.75' },
+    ],
+  },
+  {
+    id: 'bebidas',
+    name: 'Bebidas',
+    description: 'Refrescos, jugos naturales y bebidas tradicionales venezolanas',
+    image: 'https://readdy.ai/api/search-image?query=Venezuelan%20chicha%20rice%20drink%20in%20clear%20glass%20with%20ice%20and%20cinnamon%20stick%2C%20next%20to%20Malta%20bottle%2C%20warm%20natural%20lighting%2C%20appetizing%20beverage%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=600&height=600&seq=cat-bebidas-01&orientation=squarish',
+    items: [
+      { name: 'Chicha', price: '$5.99 – $8.50', description: 'A drink made of rice, milk, condensed milk and a touch of cinnamon. Sizes: 16 oz — $5.99 | 20 oz — $7.25 | 24 oz — $8.50' },
+      { name: 'Regular Sodas', price: '$2.50', description: 'Coke, Coke Zero, Diet Coke, Sprite, Orange, Grape' },
+      { name: 'International Sodas', price: '$2.75', description: 'Frescolita, Malta, Colombiana, Postobon, Guarana' },
+      { name: 'Natural Juice', price: '$5.49', description: 'Parchita (Maracuya), Guanabana, Mora, Mango, Orange, Soursop, Passion Fruit' },
+      { name: 'Coffee', price: '$2.99 – $4.99', description: '8 oz — $2.99 | 12 oz — $3.99 | 16 oz — $4.99' },
+      { name: 'Water', price: '$1.99', description: 'Bottled water' },
+    ],
+  },
+];
+
+export const extraItems = [
+  { category: 'Empanadas', name: 'Empanadas', price: '$3.99', description: 'Venezuelan Fried Corn Meat Patties. Flavors: Cheese, Chicken, Shredded Beef, Ground Beef, Pork, Fish (Cazon), Ham and Cheese, Black Beans and Cheese, Papa y Queso, Chorizo y Queso, Pabellon, Shredded Beef & Gouda Cheese (Palua). And more flavors available!' },
+  { category: 'Pastelitos', name: 'Pastelitos', price: '$3.25', description: 'Venezuelan Patties — Ground Beef, Potato with cheese, Pizza or Chicken' },
+  { category: 'Patacones', name: 'Patacon (Plantain Platter)', price: '$15.99', description: 'One whole fried plantain (green or ripe), deliciously topped with your favorite meat, lettuce, tomato, shredded white cheese, ketchup and green sauce. Choices: Shredded beef, Pork, Chicken' },
+  { category: 'Especiales', name: 'Chicken Tenders', price: '$11.99', description: '3 Crispy tenders served with fries' },
+  { category: 'Acompañamientos', name: 'French Fries', price: '$4.25', description: 'Papas fritas clasicas' },
+  { category: 'Especiales', name: 'Mandocas', price: '$7.50', description: '3 Sweet fried corn meal rings topped with cheese and a side of crema' },
+  { category: 'Postres', name: 'Flan (Quesillo)', price: '$3.99', description: 'Venezuelan style flan, smooth and creamy caramel custard' },
+  { category: 'Postres', name: 'Tres Leches', price: '$3.99', description: 'Rich and delicious three milk cake' },
+  { category: 'Golfeados', name: 'Golfeados Regular', price: '$4.50', description: 'Sweet Venezuelan rolled pastry' },
+  { category: 'Golfeados', name: 'Golfeados con Queso de Mano', price: '$5.99', description: 'Sweet Venezuelan rolled pastry with artisan cheese' },
+];

@@ -1,0 +1,32 @@
+export const promotions = [
+  {
+    id: 'happy-hour',
+    label: 'Happy Hour',
+    title: '2PM – 6PM',
+    subtitle: 'Lunes a Viernes',
+    description: 'Disfruta precios especiales en bebidas y acompañamientos durante nuestra hora feliz. La mejor manera de pasar la tarde en Kissimmee.',
+    highlight: 'Precios especiales en bebidas',
+    badge: 'Oferta de la semana',
+    image: 'https://readdy.ai/api/search-image?query=Venezuelan%20restaurant%20interior%20warm%20golden%20hour%20lighting%2C%20wooden%20tables%20with%20colorful%20drinks%20and%20appetizers%2C%20chicha%20and%20sodas%20on%20rustic%20surface%2C%20cozy%20latin%20ambiance%2C%20appetizing%20beverage%20photography%2C%20warm%20amber%20earthy%20tones%2C%20editorial%20style&width=1200&height=500&seq=promo-happyhour-01&orientation=landscape',
+  },
+  {
+    id: 'combo-familiar',
+    label: 'Combo Familiar',
+    title: 'Tequeños + Cachapa',
+    subtitle: 'Para compartir en familia',
+    description: '12 tequeños tradicionales + 1 cachapa con queso de mano + 2 sodas internacionales. El combo perfecto para disfrutar juntos.',
+    highlight: 'Desde $29.99',
+    badge: 'Más pedido',
+    image: 'https://readdy.ai/api/search-image?query=Venezuelan%20family%20meal%20platter%20with%20teque%C3%B1os%20cheese%20sticks%20cachapa%20corn%20pancake%20and%20colorful%20sodas%20arranged%20on%20wooden%20table%2C%20generous%20portions%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20warm%20amber%20tones&width=1200&height=500&seq=promo-combo-01&orientation=landscape',
+  },
+  {
+    id: 'arepa-dia',
+    label: 'Arepa del Día',
+    title: 'Arepa Pabellón',
+    subtitle: 'Todos los miércoles',
+    description: 'Nuestra arepa de pabellón favorita con carne mechada, frijoles negros, queso guayanés y plátano maduro a un precio especial solo los miércoles.',
+    highlight: 'Solo $11.99 los miércoles',
+    badge: 'Solo miércoles',
+    image: 'https://readdy.ai/api/search-image?query=Delicious%20stuffed%20Venezuelan%20arepa%20pabellon%20with%20shredded%20beef%20black%20beans%20plantains%20and%20cheese%20on%20rustic%20ceramic%20plate%2C%20warm%20natural%20lighting%2C%20appetizing%20food%20photography%2C%20editorial%20style%2C%20shallow%20depth%20of%20field%2C%20warm%20amber%20tones&width=1200&height=500&seq=promo-arepa-01&orientation=landscape',
+  },
+];
